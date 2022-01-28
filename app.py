@@ -20,7 +20,7 @@ dispatcher = updater.dispatcher
 
 def programExit():
     while True:
-        if keyboard.read_key() == "q":
+        if keyboard.read_key() == "esc":
             print("SHUTDOWN...")
             os._exit(1)
 
@@ -108,7 +108,7 @@ def weather(update, context):
 
 if __name__ == "__main__":
 
-    # keyboard input 'q' to stop
+    # keyboard input 'esc' to stop
     thread = threading.Thread(target=programExit)
     thread.start()
 

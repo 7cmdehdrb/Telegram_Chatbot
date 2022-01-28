@@ -182,8 +182,6 @@ def getWeatherJSON(city: str):
     speed = wind["speed"]
     direction = wind["deg"]
 
-    print(weather, temperature, temp_min, temp_max, speed, direction)
-
     wind = Weather.Wind(speed=speed, direction=direction)
     wt = Weather(
         weather=weather,
@@ -192,5 +190,7 @@ def getWeatherJSON(city: str):
         temp_max=temp_max,
         wind=wind,
     )
+
+    # print(weather, temperature, temp_min, temp_max, speed, direction)
 
     return wt
