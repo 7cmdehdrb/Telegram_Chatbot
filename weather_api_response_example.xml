@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<current>
+    <city id="1835848" name="Seoul">
+        <coord lon="126.9778" lat="37.5683"></coord>
+        <country>KR</country>
+        <timezone>32400</timezone>
+        <sun rise="2022-01-27T22:39:14" set="2022-01-28T08:50:25"></sun>
+    </city>
+    <temperature value="1.62" min="-0.31" max="3.66" unit="celsius"></temperature>
+    <feels_like value="-3.23" unit="celsius"></feels_like>
+    <humidity value="40" unit="%"></humidity>
+    <pressure value="1024" unit="hPa"></pressure>
+    <wind>
+        <speed value="5.66" unit="m/s" name="Moderate breeze"></speed>
+        <gusts></gusts>
+        <direction value="260" code="W" name="West"></direction>
+    </wind>
+    <clouds value="0" name="맑음"></clouds>
+    <visibility value="10000"></visibility>
+    <precipitation mode="no"></precipitation>
+    <weather number="800" value="맑음" icon="01d"></weather>
+    <lastupdate value="2022-01-28T07:48:43"></lastupdate>
+</current>
